@@ -65,7 +65,7 @@ page_sections:
 
 - template: signup-bar
   block: cta-bar
-  content: <p>Stay</p>
+  content: <p><strong>Stay connected!</strong></p><br><p>We will keep you infonformed about new features and everything around chattarize!</p>
   email_recipient: xyynnnrd
 
 - template: detail-content
