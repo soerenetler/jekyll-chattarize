@@ -67,3 +67,4 @@ jobs:
           ftp-username: www.chattarize.de
           ftp-password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./_site/
+          git-ftp-args: --insecure
