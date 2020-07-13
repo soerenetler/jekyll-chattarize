@@ -26,7 +26,7 @@ page_sections:
     url: https://github.com/soerenetler/ZoomViz/releases/latest
     button_text: 'Download '
   image:
-    image: "/uploads/product-shot-1.png"
+    image: "/uploads/chattarize.PNG"
     alt_text: Chattarize in action
   background_image: "/uploads/hero-2-bg.png"
 
@@ -36,7 +36,7 @@ page_sections:
   headline: <strong>Save</strong><span class="light">&nbsp;Zoom chat</span>
   content: Save the chat from the Zoom meeting. This can be done in the chat panel above the input field. Click "..." and "Save Chat".
   media:
-    image: "/uploads/blocks-split.png"
+    image: "/uploads/save_chat.gif"
     alt_text: Save Zoom chat
 
 - template: content-feature
@@ -45,7 +45,7 @@ page_sections:
   headline: <strong>Choose</strong><span class="light">&nbsp;Zoom folder and meeting</span>
   content: Zoom saves the chats & recordings in the Zoom folder normally located in the Documents folder. If it is not automaticallly detected, please select it. Afterwards, choose the meeting you want to visualize. The current / most recent meeting is pre-selected.
   media:
-    image: "/uploads/edit.gif"
+    image: "/uploads/folder_meeting.png"
     alt_text: Customize Blocks
 
 - template: content-feature
@@ -54,7 +54,7 @@ page_sections:
   headline: <strong>Choose</strong><span class="light">&nbsp;chat marker</span>
   content: Only messages with the chat marker in the beginning are visualized in the Chattarize wordcloud. You can define one chat marker per question you pose to your audience.
   media:
-    image: "/uploads/edit.gif"
+    image: "/uploads/method.png"
     alt_text: Customize Blocks
 
 - template: content-feature
@@ -63,24 +63,22 @@ page_sections:
   headline: <strong>Enjoy</strong><span class="light">&nbsp;the visualization</span>
   content: You can simply refresh the wordcloud by saving the chat again.
   media:
-    image: "/uploads/edit.gif"
+    image: "/uploads/wordcloud.gif"
     alt_text: Customize Blocks
-
-- template: 1-column-text
-  block: one-column-1
-  id: team
-  headline: The Team
-  content: "I develop Chattarize as a side project. Erik gave me a lot of helpful feedback along the way. If you have any ideas for improvements, let me know: Either create a github issue or send an e-mail to hello@soeren101.de"
-  
-- template: full-width-media-element
-  block: media-1
-  image: "/uploads/theme.png"
-  caption: All Available Blocks
 
 - template: signup-bar
   block: cta-bar
   content: <p><strong>Stay connected!</strong></p><br><p>We will keep you infonformed about new features and everything around Chattarize!</p>
   email_recipient: xyynnnrd
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: <strong>That's me</strong><span class="light">&nbsp; - Sören</span>
+  content: "I develop Chattarize as a side project. If you have any ideas for improvements, let me know: Either create a github issue or send an e-mail to hello@soeren101.de"
+  media:
+    image: "/uploads/me.jpg"
+    alt_text: Customize Blocks
 
 - template: simple-footer
   block: footer-1
