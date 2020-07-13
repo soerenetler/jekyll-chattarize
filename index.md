@@ -5,13 +5,11 @@ date: 2020-07-07T23:00:00.000+00:00
 page_sections:
 - template: navigation-header-w-button
   block: header-2
-  logo: "/uploads/2018/06/21/forestry-full.svg"
+  logo: "/uploads/Chattarize.svg"
   navigation:
   - link: "/"
     link_text: Home
-  - link: "#functionality"
-    link_text: Functionality
-  - link: "#firststeps"
+  - link: "#features"
     link_text: First steps
   - link: "#team"
     link_text: Team
@@ -22,66 +20,71 @@ page_sections:
 - template: hero-banner-w-image
   block: hero-2
   headline: <strong>Chattarize</strong>
-  content: A free Open-Source tool to visualize your Zoom chat. <br> <br> Chattarize can help you with stunning visualizations of the Zoom chat. And make the participants of your online workshop part of your presentation without forcing them to leave the Zoom environment (and potentially get lost on the internet).
+  content: A free open source tool to visualize your Zoom chat. <br> <br> Chattarize can help you with stunning visualizations of the Zoom chat and make the participants of your online workshop part of your presentation without forcing them to leave the Zoom environment (and potentially get lost on the Internet).
   cta:
     enabled: true
     url: https://github.com/soerenetler/ZoomViz/releases/latest
     button_text: 'Download '
   image:
-    image: "/uploads/2018/06/21/product-shot-1.png"
+    image: "/uploads/product-shot-1.png"
     alt_text: Chattarize in action
-  background_image: "/uploads/2018/06/21/hero-2-bg.png"
+  background_image: "/uploads/hero-2-bg.png"
 
 - template: content-feature
   block: feature-1
   media_alignment: Left
-  headline: <strong>Swap &amp; Switch<span class="light">&nbsp;</span></strong><span
-    class="light">the Blocks to create sites quickly</span>
-  content: Quickly assemble and create custom sites with 16 design blocks for seven
-    different sections.
+  headline: <strong>Save</strong><span class="light">&nbsp;Zoom chat</span>
+  content: Save the chat from the Zoom meeting. This can be done in the chat panel above the input field. Click "..." and "Save Chat".
   media:
-    image: "/uploads/2018/06/21/blocks-split.png"
-    alt_text: uBuild Blocks Mock-Up
+    image: "/uploads/blocks-split.png"
+    alt_text: Save Zoom chat
+
 - template: content-feature
   block: feature-1
   media_alignment: Right
-  headline: <strong>Customize Blocks</strong><span class="light">&nbsp;to make quick
-    edits throughout your new site</span>
-  content: Each block comes with custom Front Matter that can easily be edited in
-    Forestry's UI.
+  headline: <strong>Choose</strong><span class="light">&nbsp;Zoom folder and meeting</span>
+  content: Zoom saves the chats & recordings in the Zoom folder normally located in the Documents folder. If it is not automaticallly detected, please select it. Afterwards, choose the meeting you want to visualize. The current / most recent meeting is pre-selected.
   media:
-    image: "/uploads/2018/06/21/edit.gif"
+    image: "/uploads/edit.gif"
     alt_text: Customize Blocks
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Left
+  headline: <strong>Choose</strong><span class="light">&nbsp;chat marker</span>
+  content: Only messages with the chat marker in the beginning are visualized in the Chattarize wordcloud. You can define one chat marker per question you pose to your audience.
+  media:
+    image: "/uploads/edit.gif"
+    alt_text: Customize Blocks
+
+- template: content-feature
+  block: feature-1
+  media_alignment: Right
+  headline: <strong>Enjoy</strong><span class="light">&nbsp;the visualization</span>
+  content: You can simply refresh the wordcloud by saving the chat again.
+  media:
+    image: "/uploads/edit.gif"
+    alt_text: Customize Blocks
+
 - template: 1-column-text
   block: one-column-1
-  headline: 16 Fully Responsive Design Blocks
-  content: "The Design Blocks can be used without Forestry but to harness the power
-    of Blocks we recommend using Forestry. Once the site is imported you can immediately
-    create new sites and make them fully customizable. \U0001F447"
+  id: team
+  headline: The Team
+  content: "I develop Chattarize as a side project. Erik gave me a lot of helpful feedback along the way. If you have any ideas for improvements, let me know: Either create a github issue or send an e-mail to hello@soeren101.de"
+  
 - template: full-width-media-element
   block: media-1
-  image: "/uploads/2018/06/21/theme.png"
+  image: "/uploads/theme.png"
   caption: All Available Blocks
 
 - template: signup-bar
   block: cta-bar
-  content: <p><strong>Stay connected!</strong></p><br><p>We will keep you infonformed about new features and everything around chattarize!</p>
+  content: <p><strong>Stay connected!</strong></p><br><p>We will keep you infonformed about new features and everything around Chattarize!</p>
   email_recipient: xyynnnrd
 
-- template: detail-content
-  block: text-1
-  headline: First steps!
-  content: <p>Chattarize can help you with stunning visualizations of the Zoom chat. And make the participants of your online workshop part of your presentation without forcing them to leave the Zoom environment (and potentially get lsot in the internet).It's easy to get started!</p>
-    <ol><li><p>Download Chattarize from <a href="https://github.com/soerenetler/ZoomViz/releases/latest">here</a> and install it on your computer (Chatterize is available for Windows, MacOS and Linux).</p>
-    <li><p>Save your Zoom chat from the chat menu</p></li>
-    </li><li><p>Open Chattarize and slect your Zoom folder (the Zoom-Folder is normally located under documents).</p></li>
-    <li><p>Select your meeting from the dropdown list.</p></li>
-    <li><p>Choose a marker that is written prefixed to every answer.</p></li>
-    <li><p>Choose a marker that is written prefixed to every answer.</p></li>
-    </ol>
 - template: simple-footer
   block: footer-1
-  content: Build with ❤︎ in Golm
+  content: Built with ❤︎ in Golm
 
 ---
 foo bar

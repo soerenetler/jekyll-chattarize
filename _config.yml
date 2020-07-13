@@ -4,7 +4,7 @@ email: hello@soeren101.de
 description: >-
   Chattarize is a free Open-Source tool to visualize your Zoom chat.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # your site's origin, e.g. https://forestry.io
+url: "chattarize.de" # your site's origin, e.g. https://forestry.io
 
 # Build settings
 defaults:
