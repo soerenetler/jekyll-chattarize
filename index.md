@@ -33,6 +33,7 @@ page_sections:
 - template: content-feature
   block: feature-1
   media_alignment: Left
+  id: features
   headline: <strong>Save</strong><span class="light">&nbsp;Zoom chat</span>
   content: Save the chat from the Zoom meeting. This can be done in the chat panel above the input field. Click "..." and "Save Chat".
   media:
@@ -76,13 +77,14 @@ page_sections:
   media_alignment: Left
   headline: <strong>That's me</strong><span class="light">&nbsp; - Sören</span>
   content: "I develop Chattarize as a side project. If you have any ideas for improvements, let me know: Either create a github issue or send an e-mail to hello@soeren101.de"
+  id: team
   media:
     image: "/uploads/me.jpg"
     alt_text: Customize Blocks
 
 - template: simple-footer
   block: footer-1
-  content: Built with ❤︎ in Golm
+  content: Built with ❤︎ in Golm <br/> <a href="/imprint">Imprint</a>
 
 ---
 foo bar
